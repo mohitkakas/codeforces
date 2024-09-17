@@ -2,6 +2,7 @@
 
 using namespace std;
 
+const int MX = INT_MAX;
 
 void solve(){
     // code
@@ -11,7 +12,7 @@ void solve(){
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
-    int min=INT_MAX;
+    int min=MX;
     for(int i=0;i<n;i++){
         if(a[i]<0){
         if((-1*a[i])<min){
